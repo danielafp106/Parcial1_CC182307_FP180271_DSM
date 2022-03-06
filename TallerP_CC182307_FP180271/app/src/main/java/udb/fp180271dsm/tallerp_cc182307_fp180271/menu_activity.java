@@ -1,0 +1,13 @@
+package udb.fp180271dsm.tallerp_cc182307_fp180271;
+
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+
+public class menu_activity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_menu);
+    }
+}

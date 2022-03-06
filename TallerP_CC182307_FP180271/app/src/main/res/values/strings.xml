@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">¡Bienvenido al Parcial #1!</string>
+    <string name="loginHeader">Crear una Cuenta</string>
+    <string name="inputUser">Ingrese su usuario</string>
+    <string name="inputPass">Ingrese su contraseña</string>
+    <string name="inputNewUser">Ingrese un usuario</string>
+    <string name="inputNewPass">Ingrese una contraseña</string>
+    <string name="registrarBtn">Crear Cuenta</string>
+    <string name="loginBtn">Iniciar Sesión</string>
+    <string name="alreadyHaveAccount">¿Ya tienes una cuenta? Inicia Sesión</string>
+    <string name="doesntHaveAccount">¿No tienes una cuenta? Regístrate</string>
+    <string name="menuName">Menú Principal</string>
+</resources>
