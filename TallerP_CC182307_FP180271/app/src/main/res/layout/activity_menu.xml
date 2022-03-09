@@ -6,11 +6,124 @@
     android:layout_height="match_parent"
     tools:context=".menu_activity">
 
-    <TextView
-        android:id="@+id/textView2"
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="it works"
-        tools:layout_editor_absoluteX="140dp"
-        tools:layout_editor_absoluteY="292dp" />
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/night"
+        android:clickable="true"
+        android:onClick="openVotaciones"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageViewFor"
+            android:layout_width="60dp"
+            android:layout_height="80dp"
+            android:clickable="true"
+            android:onClick="openVotaciones"
+            android:paddingLeft="20dp"
+            android:src="@drawable/ic_baseline_123_24" />
+
+        <Button
+            android:id="@+id/buttonFor"
+            android:layout_width="280dp"
+            android:layout_height="80dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@null"
+            android:onClick="openVotaciones"
+            android:paddingEnd="10dp"
+            android:text="@string/menuFormula"
+            android:textColor="@color/icons"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="250dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/night"
+        android:clickable="true"
+        android:onClick="openVotaciones"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageViewVotDes"
+            android:layout_width="60dp"
+            android:layout_height="80dp"
+            android:clickable="true"
+            android:onClick="openVotaciones"
+            android:paddingLeft="20dp"
+            android:src="@drawable/ic_baseline_assessment_242" />
+
+        <Button
+            android:id="@+id/buttonVot"
+            android:layout_width="280dp"
+            android:layout_height="80dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@null"
+            android:onClick="openVotaciones"
+            android:text="@string/menuVotaciones"
+            android:textColor="@color/icons"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="350dp"
+        android:layout_marginBottom="301dp"
+        android:background="@color/night"
+        android:clickable="true"
+        android:onClick="openVotaciones"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageViewDes"
+            android:layout_width="60dp"
+            android:layout_height="80dp"
+            android:clickable="true"
+            android:onClick="openVotaciones"
+            android:paddingLeft="20dp"
+            android:src="@drawable/ic_baseline_attach_money_24" />
+
+        <Button
+            android:id="@+id/buttonDes"
+            android:layout_width="280dp"
+            android:layout_height="80dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@null"
+            android:onClick="openVotaciones"
+            android:paddingEnd="10dp"
+            android:text="@string/menuSalarios"
+            android:textColor="@color/icons"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
 </android.support.constraint.ConstraintLayout>

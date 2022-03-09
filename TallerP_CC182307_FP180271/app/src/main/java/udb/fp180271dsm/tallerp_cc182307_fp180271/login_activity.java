@@ -1,6 +1,5 @@
 package udb.fp180271dsm.tallerp_cc182307_fp180271;
 
-import android.content.ContentValues;
 import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
@@ -44,7 +43,7 @@ public class login_activity extends AppCompatActivity {
                     if(passToCheck.trim().equals(userExist.getString(1).trim())) //comprobando contraseñas
                     {
                         Toast.makeText(this, "¡Bienvenid@ "+userExist.getString(0)+"!", Toast.LENGTH_SHORT).show();
-                        Intent llamar = new Intent(this,menu_activity.class);
+                        Intent llamar = new Intent(this, menu_activity.class);
                         startActivity(llamar);
                         this.finish();
                     }

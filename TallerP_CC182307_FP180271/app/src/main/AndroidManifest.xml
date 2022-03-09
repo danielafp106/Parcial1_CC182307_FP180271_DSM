@@ -10,9 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TallerP_CC182307_FP180271">
         <activity
+            android:name=".votaciones_activity"
+            android:exported="false"
+            android:label="@string/votacionesName" />
+        <activity
             android:name=".menu_activity"
             android:exported="false"
-            android:label="@string/menuName"/>
+            android:label="@string/menuName" />
         <activity
             android:name=".login_activity"
             android:exported="false" />
