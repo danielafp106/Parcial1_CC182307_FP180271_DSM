@@ -14,7 +14,7 @@
         android:layout_marginBottom="20dp"
         android:background="@color/night"
         android:clickable="true"
-        android:onClick="openVotaciones"
+        android:onClick="openCuadratica"
         android:orientation="horizontal"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
         app:layout_constraintEnd_toEndOf="parent"
@@ -26,7 +26,7 @@
             android:layout_width="60dp"
             android:layout_height="80dp"
             android:clickable="true"
-            android:onClick="openVotaciones"
+            android:onClick="openCuadratica"
             android:paddingLeft="20dp"
             android:src="@drawable/ic_baseline_123_24" />
 
@@ -37,7 +37,7 @@
             android:layout_marginEnd="10dp"
             android:layout_marginRight="10dp"
             android:background="@null"
-            android:onClick="openVotaciones"
+            android:onClick="openCuadratica"
             android:paddingEnd="10dp"
             android:text="@string/menuFormula"
             android:textColor="@color/icons"
@@ -95,7 +95,7 @@
         android:layout_marginBottom="301dp"
         android:background="@color/night"
         android:clickable="true"
-        android:onClick="openVotaciones"
+        android:onClick="openSalarios"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -107,7 +107,7 @@
             android:layout_width="60dp"
             android:layout_height="80dp"
             android:clickable="true"
-            android:onClick="openVotaciones"
+            android:onClick="openSalarios"
             android:paddingLeft="20dp"
             android:src="@drawable/ic_baseline_attach_money_24" />
 
@@ -118,7 +118,7 @@
             android:layout_marginEnd="10dp"
             android:layout_marginRight="10dp"
             android:background="@null"
-            android:onClick="openVotaciones"
+            android:onClick="openSalarios"
             android:paddingEnd="10dp"
             android:text="@string/menuSalarios"
             android:textColor="@color/icons"

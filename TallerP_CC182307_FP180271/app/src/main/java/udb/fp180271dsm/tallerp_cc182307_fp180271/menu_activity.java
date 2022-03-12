@@ -18,4 +18,16 @@ public class menu_activity extends AppCompatActivity {
         Intent llamar = new Intent(this, votaciones_activity.class);
         startActivity(llamar);
     }
+
+    public void openCuadratica(View v)
+    {
+        Intent llamar = new Intent(this, cuadratica_activity.class);
+        startActivity(llamar);
+    }
+
+    public void openSalarios(View v)
+    {
+        Intent llamar = new Intent(this, salarios_activity.class);
+        startActivity(llamar);
+    }
 }

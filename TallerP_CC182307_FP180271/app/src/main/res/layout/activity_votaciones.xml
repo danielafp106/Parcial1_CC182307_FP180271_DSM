@@ -30,13 +30,13 @@
         android:textColor="@color/primary_text"
         android:textSize="14sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/txtWinner"
+        app:layout_constraintBottom_toTopOf="@+id/txtX1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
     <TextView
-        android:id="@+id/txtWinner"
+        android:id="@+id/txtX1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -56,7 +56,7 @@
         android:layout_height="56dp"
         android:layout_marginStart="65dp"
         android:layout_marginTop="36dp"
-        app:layout_constraintEnd_toStartOf="@+id/txtWinner"
+        app:layout_constraintEnd_toStartOf="@+id/txtX1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView5"
         app:srcCompat="@drawable/ic_baseline_stars_24" />

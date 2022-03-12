@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TallerP_CC182307_FP180271">
         <activity
+            android:name=".cuadratica_activity"
+            android:exported="false"
+            android:label="Fórmula cuadrática" />
+        <activity
+            android:name=".salarios_activity"
+            android:exported="false"
+            android:label="@string/menuSalarios" />
+        <activity
+            android:name=".resultadossalarios_activity"
+            android:exported="false"
+            android:label="@string/resultadossalarioTitle" />
+        <activity
             android:name=".votaciones_activity"
             android:exported="false"
             android:label="@string/votacionesName" />

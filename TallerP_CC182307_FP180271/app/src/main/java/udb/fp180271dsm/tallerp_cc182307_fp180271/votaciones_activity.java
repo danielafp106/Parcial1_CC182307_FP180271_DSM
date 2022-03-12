@@ -10,16 +10,12 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
-import java.util.Comparator;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.LinkedHashMap;
 import java.util.Map;
-import java.util.Set;
-import java.util.TreeMap;
 
 public class votaciones_activity extends AppCompatActivity {
 
@@ -31,7 +27,7 @@ public class votaciones_activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_votaciones);
         txtVotos = findViewById(R.id.txtVotes);
-        txtWinner = findViewById(R.id.txtWinner);
+        txtWinner = findViewById(R.id.txtX1);
         TXTTOTAL = findViewById(R.id.TXTTOTAL);
     }
 

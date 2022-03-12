@@ -15,6 +15,14 @@
     <string name="resultadosTitle">Resultado de Votaciones</string>
     <string name="inputVotaciones">Ingrese los votos ej: 1,2,1,3</string>
     <string name="votacionesBtn">Calcular Resultados</string>
+    <string name="formulaTitle">Fórmula Cuadrática</string>
+    <string name="inputcuadratica1">Ingrese el valor de "a"</string>
+    <string name="inputcuadratica2">Ingrese el valor de "b"</string>
+    <string name="inputcuadratica3">Ingrese el valor de "c"</string>
+    <string name="cuadraticaBtn">Calcular</string>
+    <string name="resultadocuadraticaTitle">Resultados de la \nfórmula cuadrática</string>
+    <string name="resultadossalarioTitle">Detalle de salario</string>
+
     <string name="menuFormula">Formula Cuadrática</string>
     <string name="menuVotaciones">Votaciones</string>
     <string name="menuSalarios">Descuentos de Salario</string>
